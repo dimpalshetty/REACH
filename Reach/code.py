@@ -126,7 +126,7 @@ def register():
     selection_donate=Radiobutton(register_frame, text="Donate", value="M", font=("Bold",12))
     selection_donate.grid(row=0,column=0)
 
-    selection_volunteer=Radiobutton(register_frame, text="Volunteer", value="M", font=("Bold",12))
+    selection_volunteer=Radiobutton(register_frame, text="Volunteer", value="F", font=("Bold",12))
     selection_volunteer.grid(row=0,column=1)
 
     #first name widget
